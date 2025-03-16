@@ -24,6 +24,8 @@ describe('TodoContext', () => {
             </TodoProvider>
         );
 
+        // Initial test
+
         expect(screen.getByTestId('todo-count')).toHaveTextContent('0')
 
         fireEvent.click(screen.getByText('Add todo'))
@@ -31,8 +33,5 @@ describe('TodoContext', () => {
         expect(screen.getByTestId('todo-count')).toHaveTextContent('1')
 
     })
-
-    // Init
-
 
 })
