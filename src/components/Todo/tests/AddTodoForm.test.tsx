@@ -2,9 +2,9 @@ import React from "react";
 
 import { render, screen, fireEvent } from "@testing-library/react"
 
-import { TodoProvider } from "../../context/TodoContext";
+import { TodoProvider } from "../../../context/TodoContext";
 
-import AddTodoForm from "./AddTodoForm";
+import AddTodoForm from "../AddTodoForm";
 
 
 describe('AddTodoForm', () => {

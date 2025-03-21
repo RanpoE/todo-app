@@ -2,7 +2,7 @@ import React from "react";
 
 import { render, screen, fireEvent } from "@testing-library/react"
 
-import { TodoProvider, useTodoContext } from "../../context/TodoContext";
+import { TodoProvider, useTodoContext } from "../../../context/TodoContext";
 
 
 const TestComponent = () => {
