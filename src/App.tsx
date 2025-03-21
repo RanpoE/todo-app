@@ -1,6 +1,6 @@
 import React from 'react';
 import { TodoProvider } from './context/TodoContext';
-import { AddTodoForm, TodoList } from './components/Todo';
+import { AddTodoForm, SearchBar, TodoList } from './components/Todo';
 import './App.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <div className="todo-app">
         <h1>Todo App</h1>
         <AddTodoForm />
+        <SearchBar />
         <TodoList />
       </div>
     </TodoProvider>
